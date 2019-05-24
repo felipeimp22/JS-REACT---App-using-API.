@@ -1,0 +1,70 @@
+.product-list{
+    max-width: 700px;
+    margin: 20px auto 0;
+    padding:  0 20px;
+}
+.product-list article{
+    background: rgb(70, 70, 70);
+    border: 2px solid rgb(197, 195, 195);
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 10px
+}
+.product-list article strong{
+    color: rgb(32, 30, 30);
+}
+.product-list article p{
+    font-size: 16px;
+    color: rgb(255, 255, 255) ;
+    opacity: 0.4;
+    margin-top: 5px;
+    line-height:24px;   
+}
+.product-list article a{
+    height: 42px;
+    border-radius: 5px;
+    border: 2px solid rgb(46, 46, 46);
+    background: rgb(70, 70, 70);
+    margin: 10px;
+    color: rgb(201, 199, 199);
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s;
+}
+.product-list article a:hover{
+    background: rgb(44, 43, 43);
+    color:white;
+}
+.product-list .action{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.product-list .action button{
+    padding: 10px;
+    border-radius: 5px;
+    border:0;
+    background: rgb(48, 47, 47);
+    font-size: 16px;
+    font-weight:bold;
+    color:rgb(179, 175, 175);
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.product-list .action button[disabled]{
+    opacity: 0.2;
+    cursor: default;
+}
+.product-list .action button[disabled]:hover{
+    opacity: 0.2;
+}
+
+.product-list .action button:hover{
+    color: white;
+    background: rgb(41, 39, 39);
+}
